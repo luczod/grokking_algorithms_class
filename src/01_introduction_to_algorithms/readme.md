@@ -19,7 +19,7 @@
 
 - ### Big O runtime examples
 
-  O(log n) < O(n) < O(n \* log n) < O(n2) < O(n!)
+  O(log n) < O(n) < O(n \* log n) < O(n<sup>2</sup>) < O(n!)
 
 - ### The speed of an algorithm
   The speed of an algorithm is not measured in seconds, but by
