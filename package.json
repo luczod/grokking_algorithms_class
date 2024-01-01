@@ -1,0 +1,28 @@
+{
+  "name": "design-partterns-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "lucas",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "@types/validator": "^13.11.7",
+    "@typescript-eslint/eslint-plugin": "^6.16.0",
+    "@typescript-eslint/parser": "^6.16.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "prettier": "^3.1.1",
+    "source-map-support": "^0.5.21",
+    "sucrase": "^3.35.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "validator": "^13.11.0"
+  }
+}
