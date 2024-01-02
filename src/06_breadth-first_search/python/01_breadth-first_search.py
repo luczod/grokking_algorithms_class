@@ -2,7 +2,7 @@
 from collections import deque
 
 """ def person_is_seller(name):
-      # verifica se o ultimo elemnto da string é "m"
+      # checks if the last element of the string is "m"
       return name[-1] == 'm' """
 
 
@@ -10,7 +10,7 @@ def person_is_jonny(name):
     return name == 'jonny'
 
 
-# grafo em python
+# graph in python
 graph = {}
 graph["you"] = ["alice", "claire", "bob"]
 graph["bob"] = ["anuj", "peggy"]
@@ -40,7 +40,7 @@ def search(name):
             # print(person + " is a mango seller!")
             print(person + " is find!")
             return True
-        # depois verificar o vertice(person), adiciona o seus vizinhos
+        # Then check the vertex(person), add its neighbors
         search_queue += graph[person]
         # Marks this person as searched
         searched.add(person)
