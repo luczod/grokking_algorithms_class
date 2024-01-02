@@ -28,6 +28,7 @@
   | Lists   | O(n) |   O(1) |
 
 - ### Delete in Array
+
   With arrays, everything needs to be moved when an element is deleted.
   Contrary to what happens with insertions, the elimination of elements
   will always work. Insertion may fail when there is no space
