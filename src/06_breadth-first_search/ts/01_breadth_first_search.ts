@@ -16,7 +16,7 @@ function breadthFirstSearch(startVertex: string, graph: TGraph): boolean {
   while (searchDeque.isEmpty) {
     // remove the list fist person in left side
     const person = searchDeque.removeFront();
-    console.log(person);
+    // console.log(person);
     // Only search this person if you haven't already searched them.
     if (person in searched) continue;
     if (personIsSeller(person)) {

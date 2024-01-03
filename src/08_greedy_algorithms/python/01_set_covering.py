@@ -7,7 +7,7 @@ stations["ktwo"] = set(["wa", "id", "mt"])
 stations["kthree"] = set(["or", "nv", "ca"])
 stations["kfour"] = set(["nv", "ut"])
 stations["kfive"] = set(["ca", "az"])
-#  set() = conjunto
+
 final_stations = set()
 
 
