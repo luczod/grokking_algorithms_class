@@ -14,7 +14,7 @@ function partiton(arr: number[], pivot: number, subarr: 'right' | 'left') {
   }
 }
 
-function quicksort(arr: number[]): number[] {
+export function quicksort(arr: number[]): number[] {
   // base case, arrays with 0 or 1 element are already "sorted"
   if (arr.length < 2) {
     return arr;
@@ -30,4 +30,4 @@ function quicksort(arr: number[]): number[] {
   }
 }
 
-console.log(quicksort([5, 5, 3, 6, 2]));
+// console.log(quicksort([5, 5, 3, 6, 2]));

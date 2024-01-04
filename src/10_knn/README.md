@@ -1,11 +1,16 @@
-## Digit recognition with knn
+- ### KNN
 
-Here's some example Matlab code that shows KNN in action to guess handwritten digits. Here's what the output looks like:
+  In a scatterplot, if most of the neighbors are made up of red,
+  not green. Therefore, a dot is probably a red one.Even though it
+  is simple, this algorithm is very useful.
 
-![](https://github.com/egonSchiele/grokking_algorithms/blob/master/10_knn/images/17_correct_500_comparisons.png)
+- ### Grouping
 
-Each row represents a guess. The last column contains the image that we're trying to guess the digit for. The first three columns show the 3 nearest neighbors for that last image.
+  you group the points by similarity, but how do you find out
+  how similar two points are? the dots can be anything like
+  netflix users or fruits.
 
-Images with boxes around them represent images that we did not guess correctly. You can see KNN works pretty well -- with just 500 comparison images we are getting 80% accuracy. This jumps to 90% with 5000 comparison images (see the images/ directory).
-
-[Uses the MNIST dataset](http://yann.lecun.com/exdb/mnist/)
+- ### Theorem of Pythagoras
+  Find the distance between two points
+  the two basic things you will do with the k-nearest
+  neighbors algorithm: classification and regression.
