@@ -8,7 +8,7 @@
       "type": "chrome",
       "request": "launch",
       "skipFiles": ["${workspaceFolder}/node_modules/**/*.js", "${workspaceFolder}/src/**/*.py"],
-      "name": "Debugger Vite",
+      "name": "Chrome Vite Debugger",
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}/src"
     }

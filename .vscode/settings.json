@@ -1,6 +1,6 @@
 {
   "code-runner.executorMap": {
-    "typescript": "npx sucrase-node"
+    "typescript": "node -r sucrase/register"
   },
   "code-runner.clearPreviousOutput": true,
   "vsicons.associations.folders": [
@@ -12,7 +12,7 @@
       "icon": "python",
       "extensions": ["python"]
     }
-  ],
+  ]
   /* "python.languageServer": "Pylance", // ms-python.vscode-pylance
   "python.testing.unittestEnabled": false, // ms-python.python
   "python.testing.pytestEnabled": true,
