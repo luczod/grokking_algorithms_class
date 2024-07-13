@@ -11,6 +11,28 @@
       "name": "Chrome Vite Debugger",
       "url": "http://localhost:5173",
       "webRoot": "${workspaceFolder}/src"
+    },
+    {
+      "type": "node",
+      "request": "attach",
+      "restart": true,
+      "name": "Keep-conn",
+      "skipFiles": ["<node_internals>/**"]
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "restart": true,
+      "name": "One-file",
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${workspaceFolder}/file.js"
+    },
+    {
+      "type": "node-terminal",
+      "request": "launch",
+      "name": "One-file-TS",
+      "skipFiles": ["<node_internals>/**"],
+      "command": "node -r sucrase/register ${workspaceFolder}/file.ts"
     }
   ]
 }
