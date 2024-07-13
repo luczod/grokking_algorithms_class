@@ -55,6 +55,6 @@ if __name__ == "__main__":
 
     print(bs.search_iterative(my_list, 9))  # => retorna a posição no array
 
-    # 'None' means nil in Python. We use to indicate that the
+    # 'None' means null in Python. We use to indicate that the
     # item wasn't found.
     print(bs.search_iterative(my_list, 10))  # => None
