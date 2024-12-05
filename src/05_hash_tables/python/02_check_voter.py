@@ -1,7 +1,7 @@
 voted = {}
 
 
-def check_voter(name):
+def check_voter(name: str) -> None:
     if voted.get(name):
         print("kick them out!")
     else:

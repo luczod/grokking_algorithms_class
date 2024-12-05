@@ -1,4 +1,4 @@
-def countdown(i):
+def countdown(i: int) -> int:
     # base case
     if i <= 0:
         return 0

@@ -1,4 +1,5 @@
-def sum(list):
-    if list == []:
+def sum(arr: list[int]) -> int:
+    if arr == []:
         return 0
-    return list[0] + sum(list[1:])
+
+    return arr[0] + sum(arr[1:])

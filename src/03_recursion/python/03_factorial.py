@@ -1,4 +1,4 @@
-def fact(x):
+def fact(x: int) -> int:
     # caso-base
     if x == 1:
         return 1

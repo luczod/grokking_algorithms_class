@@ -5,10 +5,8 @@ from collections import deque
       # checks if the last element of the string is "m"
       return name[-1] == 'm' """
 
-
-def person_is_jonny(name):
+def person_is_jonny(name: str) -> str:
     return name == 'jonny'
-
 
 # graph in python
 graph = {}
@@ -22,7 +20,7 @@ graph["thom"] = []
 graph["jonny"] = []
 
 
-def search(name):
+def search(name: str) -> bool:
     search_queue = deque()
     print(search_queue)
     search_queue += [name]
@@ -36,6 +34,7 @@ def search(name):
         # Only search this person if you haven't already searched them.
         if person in searched:
             continue
+
         if person_is_jonny(person):
             # print(person + " is a mango seller!")
             print(person + " is find!")
@@ -44,6 +43,7 @@ def search(name):
         search_queue += graph[person]
         # Marks this person as searched
         searched.add(person)
+
     return False
 
 

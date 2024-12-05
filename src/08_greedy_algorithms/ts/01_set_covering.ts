@@ -19,6 +19,7 @@ export function setCovering(states: SetCls<string>, stations: TStations) {
   while (!states.isEmpty()) {
     let bestStation: string;
     let stateCovered = new SetCls<string>();
+
     for (const station of Object.keys(stations)) {
       const covered = states.intersection(stations[station]);
 
@@ -36,6 +37,7 @@ export function setCovering(states: SetCls<string>, stations: TStations) {
       return null;
     }
   }
+
   console.log(finalStations.values());
 
   return finalStations;

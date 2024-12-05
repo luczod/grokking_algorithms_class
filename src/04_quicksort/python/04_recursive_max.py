@@ -1,8 +1,10 @@
-def max_(lst):
-    if len(lst) == 0:
+def max_(arr: list[int]) -> (int | None):
+    if len(arr) == 0:
         return None
-    if len(lst) == 1:
-        return lst[0]
+
+    if len(arr) == 1:
+        return arr[0]
+
     else:
-        sub_max = max_(lst[1:])
-        return lst[0] if lst[0] > sub_max else sub_max
+        sub_max = max_(arr[1:])
+        return arr[0] if arr[0] > sub_max else sub_max

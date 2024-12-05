@@ -6,9 +6,11 @@ export const moviesRate = {
 
 export function pythagorean(x: number[], y: number[]): number {
   let sum = 0;
+
   for (let i = 0; i < x.length; i++) {
     sum += Math.pow(x[i] - y[i], 2);
   }
+
   console.log(sum);
   // return Math.sqrt(sum); ??
   return sum;

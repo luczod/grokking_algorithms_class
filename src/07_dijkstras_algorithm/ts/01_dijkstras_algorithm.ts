@@ -48,6 +48,7 @@ function findLowestCostNode(costs: TCoast): string {
 
   return lowestCostNode;
 }
+
 let node = findLowestCostNode(costs);
 export function dijkstras() {
   // Find the lowest-cost node that you haven't processed yet.

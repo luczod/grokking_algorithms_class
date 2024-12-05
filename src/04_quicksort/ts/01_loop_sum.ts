@@ -1,8 +1,10 @@
 function sum(arr: number[]): number {
   let total = 0;
+
   for (const x of arr) {
     total += x;
   }
+
   return total;
 }
 

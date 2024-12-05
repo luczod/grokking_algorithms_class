@@ -1,4 +1,4 @@
-def binary_search(arr, target):
+def binary_search(arr: list[int], target: int) -> int:
     if not arr:
         return -1
 

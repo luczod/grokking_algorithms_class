@@ -31,7 +31,7 @@ parents["fin"] = None
 processed = []
 
 
-def find_lowest_cost_node(costs):
+def find_lowest_cost_node(costs: dict[str, float]) -> (str | None):
     lowest_cost = float("inf")
     lowest_cost_node = None
     # Go through each node.
@@ -42,6 +42,7 @@ def find_lowest_cost_node(costs):
             # ... set it as the new lowest-cost node.
             lowest_cost = cost
             lowest_cost_node = node
+
     return lowest_cost_node
 
 
@@ -52,6 +53,7 @@ while node is not None:
     cost = costs[node]
     print(cost)
     print(node)
+
     # Go through all the neighbors of this node.
     neighbors = graph[node]
     for n in neighbors.keys():
@@ -62,6 +64,7 @@ while node is not None:
             costs[n] = new_cost
             # This node becomes the new parent for this neighbor.
             parents[n] = node
+
     # Mark the node as processed.
     processed.append(node)
     # Find the next node to process, and loop.

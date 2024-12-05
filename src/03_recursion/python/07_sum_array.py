@@ -1,4 +1,4 @@
-def sum_array(arr):
+def sum_array(arr: list[int]):
     if not arr:
         return 0
     return arr[0] + sum_array(arr[1:])

@@ -1,7 +1,8 @@
-def sum(arr):
+def sum(arr: list[int]) -> int:
     total = 0
     for x in arr:
         total += x
+
     return total
 
 
